@@ -9,6 +9,9 @@ framework:
     #esi: true
     #fragments: true
 
+    trusted_proxies: '127.0.0.1,REMOTE_ADDR,sparkleverse.local'    
+    trusted_headers: ['forwarded']
+
 when@test:
     framework:
         test: true
