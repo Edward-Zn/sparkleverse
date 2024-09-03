@@ -4,6 +4,7 @@ root.key
 server.crt
 server.csr
 server.key
+public/.htaccess
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
